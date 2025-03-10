@@ -1,0 +1,18 @@
+{% if site.data.settings.social %}
+<div class="widget widget-social">
+  <ul class="widget-social__list list-reset">
+    {% for social in site.data.settings.social %}
+    <li class="widget-social__item">
+      <a class="widget-social__link" href="{{ social.link }}" target="_blank" rel="noopener"
+        aria-label="{{ social.name }} link">
+        {% if social.icon contains 'fa-' %}
+          <i class="{{ social.icon }}"></i>
+        {% else %}
+          <img src="{{ social.icon | relative_url }}" alt="{{ social.name }} icon" class="social-icon">
+        {% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

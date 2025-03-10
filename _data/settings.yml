@@ -1,0 +1,199 @@
+#-------------------------------
+# Site Settings
+title: Hello Nostr
+description: The easiest way to learn how to get started in the Nostr world
+logo: # You can add own logo. For example '/images/logo.png'.
+logo_dark:
+
+
+#-------------------------------
+# Color Scheme Settings
+color_scheme:
+  default: dark # Default theme applied on the first visit (options: "light" or "dark")
+  toggle: true # Enable theme toggle
+
+# Enables or disables the theme toggle functionality:
+# - true: Users can switch between light and dark modes using a toggle button.
+#          The site will remember their choice for future visits.
+# - false: The theme will always use the default mode specified above,
+#          and the toggle button will not be displayed.
+
+
+#-------------------------------
+# Navigation Settings
+menu_settings:
+  menu_items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Get Started'
+      url: '/start/'
+    - title: 'Nostr 101'
+      url: '/101/'
+    - title: 'Videos'
+      url: '/videos/'
+    - title: 'Pages'
+      submenu:
+      - url: '/about/'
+        title: 'About'
+      - url: '/contact/'
+        title: 'Contact'
+      - url: '/archive/'
+        title: 'Archive'
+
+#-------------------------------
+# Author Settings
+author:
+  author_name: QnA
+  author_avatar: /images/mainpage01.png
+
+#-------------------------------
+# Hero Settings
+hero:
+  enable: true
+  hero_avatar: /images/mainpage01.png
+  hero_title: Hello Nostr 👋
+  hero_subtitle: NOSTR - “Notes and Other Stuff Transmitted by Relays”
+  hero_description: |
+    Nostr is a simple, open protocol that enables censorship-resistant and verifiable communication.
+
+    Nostr is an open standard upon which anyone can build. Nostr is not a single app or service. Nostr is designed to put you in control of your online identity, social network and voice.
+  hero_image: /images/hellonostr.png
+  hero_image_caption: NOTES AND OTHER STUFF TRANSMITTED BY RELAYS
+  hero_button_text: Get Started
+  hero_button_link: '/start'
+
+
+# Logos
+logos:
+  enable: false
+  logos_title: The Nostr Effect
+  logo_image:
+    - alt: "ID"
+      image: "/images/id.png"
+    - alt: "Zap"
+      image: "/images/zap.png"
+    - alt: "Network"
+      image: "/images/socialnetwork.png"
+    - alt: "iPhone"
+      image: "/images/iphonezap.png"
+    - alt: "Headphones"
+      image: "/images/headphones.png"
+    - alt: "Mic"
+      image: "/images/podcastmic.png"
+    - alt: "Store"
+      image: "/images/store.png"
+
+
+#-------------------------------
+# Section Blog Settings
+blog:
+  enable: true
+  blog_title: The Nostr Journey
+
+
+#-------------------------------
+# Tags Section Settings
+tags_section:
+  enable: true
+  tags_section_title: Explore Nostr
+  tags:
+    - tag: "Basics"
+      image: "/images/classroom.png"
+    - tag: "Social"
+      image: "/images/socialcover.png"
+    - tag: "Other"
+      image: "/images/utilities.png"
+    - tag: "Protocol"
+      image: "/images/27.jpg"
+
+
+#-------------------------------
+# Videos Section Settings
+videos_section:
+  enable: true
+  videos_section_title: Nostr Videos
+
+
+#-------------------------------
+# Gallery Section Settings
+gallery_section:
+  enable: false
+  gallery_section_title: Nostr in Pictures
+  gallery:
+    gallery_images:
+      - alt: 'Rest'
+        url: '/images/100.jpg'
+        caption: 'Small steps lead to big results.'
+      - alt: 'Lifestyle'
+        url: '/images/101.jpg'
+        caption: 'A peaceful moment captured during a serene evening.'
+      - alt: 'Hobby'
+        url: '/images/102.jpg'
+        caption: 'True friends are like stars — they shine brightest when the world feels dark.'
+      - alt: 'Computers'
+        url: '/images/103.jpg'
+        caption: 'Every click opens a new chapter in an endless story.'
+      - alt: 'Games'
+        url: '/images/104.jpg'
+        caption: 'Every level is a new opportunity to test your limits.'
+
+
+#-------------------------------
+# Newsletter Settings
+mailchimp:
+  enable: true
+  mailchimp_title: Get Involved ✌️
+  mailchimp_description: Want your content featured here? Have a suggestion for us to cover a new client or Nostr tool? Found an error? Please let us know how we can improve Hello Nostr!
+  mailchimp_identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+  mailchimp_input_text: Your email address...
+  mailchimp_button_text: Get in touch
+  external_url: "https://primal.net/p/npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"  # Add this line
+
+
+#-------------------------------
+# Footer Settings
+footer_description: Say Hello to Nostr! This site aims to take you from your very first steps, to running multiple clients, your own relay and zapping your digital social circle.
+
+
+#-------------------------------
+# Social Settings
+social:
+- {icon: "/images/nostrich-24.svg", name: "Nostr", link: "https://primal.net/p/npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"}
+- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com/btcqna"}
+#- {icon: "fa-brands fa-facebook", name: "Facebook", link: "https://facebook.com"}
+#- {icon: "fa-brands fa-mastodon", name: "Mastodon", link: "https://mastodon.social"}
+#- {icon: "fa-brands fa-reddit-alien", name: "Reddit", link: "https://reddit.com"}
+- {icon: "fa-brands fa-telegram", name: "Telegram", link: "https://t.me/BitcoinQnA"}
+- {icon: "fa-brands fa-github", name: "Github", link: "https://github.com/BitcoinQnA"}
+- {icon: "fa-brands fa-bitcoin", name: "Bitcoin", link: "/about#value-for-value"}
+- {icon: "fa-solid fa-rss", name: "Rss", link: "/feed.xml"}
+#- {icon: "fa-solid fa-link", name: "Copy", link: "{{ site.url }}{{ site.baseurl }}{{ page.url }}"}
+
+
+
+# Example of adding a new link to the sidebar and footer - {icon: "fa-brands fa-youtube", name: "Youtube", link: https://youtube.com"}
+# Other icons can be found at https://fontawesome.com/icons
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  form_id: mzzdnbyb # Add your form_id
+  button_text: Send Now
+
+# NOTE
+# Coderon theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus:
+  enable: false
+  disqus_identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
+  disqus_title: Start the conversation
+  disqus_button_text: Show Comments
+
+
+#-------------------------------
+# Google Analytics
+google_analytics: # Add your GA Tracking Id
