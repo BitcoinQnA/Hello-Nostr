@@ -1,74 +1,13 @@
-# Coderon is a super modern and unique Jekyll blog theme
+![Hello Nostr](/images/hellonostr.png)
 
-Coderon is a sleek and innovative Jekyll blog theme designed for developers, designers, content creators, and creative thinkers. Combining unique design with top-notch performance, this theme offers a clean and modern codebase alongside a fully responsive layout that looks flawless on any device. With intuitive features like a slider, dark and light mode toggle, copy code button, and much more, this theme empowers you to create an engaging and professional blog with ease. Whether you're blogging about tech, sharing tutorials, or documenting your creative journey, this theme has everything you need to create a standout blog.
+I'll do my best to keep this site current and up to date, but Nostr moves pretty fast! Help to ensure the site is as accurate and informative as possible is hugely appreciated! You don't need to be a shadowy super coder to help. Here are some ways in which you can get involved:
 
+- Request a guide or topic that you think others might find useful
+Passionate about a certain Bitcoin tool/topic but don't have your own site? I'd be happy to host your writing if it's appropriate
+- Translate an article or page into your native language
+- Update any info on the site that is no longer accurate
+- Fix typos or grammatical errors
 
-* * *
+Issues and pull requestes are welcomed. I might even zap to say thanks!
 
-### Demo
-
-Check the theme in action [Live Demo](https://coderon-jekyll.netlify.app/) |
-[Artem Sheludko](https://jekyllthemes.io/developers/artem-sheludko)
-
-* * *
-
-### Theme features
-
-- Works with GitHub Pages (host it for free)
-- Dark and light mode user can select themself
-- No jQuery, only vanilla JS
-- 100% responsive design
-- Clean and modern code
-- Optimized for mobile devices
-- Super fast performance ⚡⚡⚡
-- Slider
-- Section blog
-- Section tags
-- Section videos
-- Section gallery
-- Social sharing buttons
-- Scroll to top button
-- Syntax highlighting (supports the Jekyll syntax highlighter)
-- Copy code button
-- Compatible with modern browsers
-- Medium style image zoom
-- Image lazy loading
-- Image gallery
-- Tag page
-- Custom logo support
-- Supports video posts
-- Supports contact form (Formspree)
-- Supports MailChimp newsletter
-- Supports Disqus comments
-- Supports Google Analytics
-- Font Awesome icons
-- Free Google Fonts
-- Free Updates & Support
-
-* * *
-
-### Installation
-
-#### Installing Ruby & Jekyll
-
-If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
-
-* * *
-
-### Deployment
-
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
-
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
-
-* * *
-
-### Documentation
-
-Before using the Coderon theme, please read the attached documentation.
-
-* * *
-
-### Support
-
-<p>If you have any questions or feedback about the theme, please feel free to contact me by mail <a href="mailto:hi.artemsheludko@gmail.com">Contact</a><p>
+**Every contribution, no matter how small, is valuable.**

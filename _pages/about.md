@@ -14,7 +14,7 @@ This site is designed to be your companion through the Nostr universe. It will h
 {: .note }
 Freedom isn't free. Being truly sovereign online takes time, effort and patience.
 
-The content on this site will not only be my own. I will aim to index and maintain the latest and greatest Nostr educational content to ensure you have the most up-to-date information available to help on your journey. This site is entirely open source and hosted on [GitHub](https://github.com/BitcoinQnA). Pull requests, issues and suggestions for new or updated content are encouraged and welcomed.
+The content on this site will not only be my own. I will aim to index and maintain the latest and greatest Nostr educational content to ensure you have the most up-to-date information available to help on your journey. This site is entirely open source and hosted on [GitHub](https://github.com/BitcoinQnA/Hello-Nostr/). Pull requests, issues and suggestions for new or updated content are encouraged and welcomed.
 
 > Together we can decentralize the web. One application at a time.
 
