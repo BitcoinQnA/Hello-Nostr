@@ -21,10 +21,10 @@ The content on this site will not only be my own. I will aim to index and mainta
 
 <div class="gallery-box">
   <div class="gallery gallery-columns-2">
-    {% include img.html src ="/images/id.png" alt="Keyboard" caption="The symphony of keys" %}
-    {% include img.html src ="/images/headphones.png" alt="Keyboard" caption="Where every keystroke brings ideas to life" %}
-    {% include img.html src ="/images/podcastmic.png" alt="Keyboard" caption="The quiet hum of creativity" %}
-    {% include img.html src ="/images/socialnetwork.png" alt="Keyboard" caption="Ready to transform thoughts into text" %}
+    {% include img.html src ="/images/id.png" alt="Keyboard" caption="Decentralized Identity" %}
+    {% include img.html src ="/images/headphones.png" alt="Keyboard" caption="'Value for Value' Audio" %}
+    {% include img.html src ="/images/podcastmic.png" alt="Keyboard" caption="Podcasting 2.0" %}
+    {% include img.html src ="/images/socialnetwork.png" alt="Keyboard" caption="Decentralized social graphs" %}
   </div>
   <em> <a href="https://unsplash.com/" target="_blank"></a></em>
 </div>
