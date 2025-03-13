@@ -279,3 +279,21 @@ table td {
   display: flex;
   gap: 16px; /* Adjust spacing between buttons */
 }
+pre {
+  white-space: pre-wrap;       /* Allows wrapping while preserving spaces */
+  word-wrap: break-word;       /* Breaks long words if needed */
+  overflow-x: auto;            /* Keeps horizontal scrolling as a fallback */
+}
+
+code {
+  white-space: pre-wrap;       /* Ensures code inside wraps too */
+  word-wrap: break-word;
+}
+
+/* Optional: Target mobile screens specifically */
+@media (max-width: 768px) {
+  pre, code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+}
