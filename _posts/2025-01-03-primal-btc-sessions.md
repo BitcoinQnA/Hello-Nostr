@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pimal Social Client - By BTC Sessions
+title: Primal Social Client - By BTC Sessions
 description: Learn the basics of Nostr with prolific educator BTC Sessions.
 date: 2025-02-03 15:01:35 +0300
 image: '/images/youtube2.jpg'
