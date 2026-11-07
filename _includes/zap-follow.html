@@ -1,0 +1,21 @@
+<hr>
+
+<p>If you found this post useful, please share it with your peers and consider following and zapping me on Nostr. If you write to me and let me know that you found me via this post, I'll be sure to Zap you back! ⚡️</p>
+
+<div class="button-container">
+  <button
+    id="nostr-zap-target"
+    class="hero__button button button--primary nostr-zap-button nostr-zap-button--primary"
+    data-npub="{{ site.data.settings.author.npub | default: 'npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx' }}"
+    data-relays="wss://relay.damus.io,wss://nos.lol,wss://relay.primal.net,wss://nostr.wine"
+  >
+    Zap Me ⚡️
+  </button>
+
+  <a
+    href="https://primal.net/p/{{ site.data.settings.author.npub | default: 'npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx' }}"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="hero__button button button--primary"
+  >Follow Me ✅</a>
+</div>

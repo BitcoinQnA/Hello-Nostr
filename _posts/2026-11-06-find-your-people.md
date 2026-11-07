@@ -3,7 +3,7 @@ layout: post
 title: Find Your People and Keep the Spam Out
 description: Build a great Nostr feed in your first week, and filter out the noise
 date: 2026-11-06 19:01:35 +0300
-image: '/images/peoplehero.png'
+image: '/images/peoplehero.webp'
 tags: [Social]
 tags_color: '#de47e2'
 Author: QnA
@@ -44,14 +44,14 @@ Hashtags work much like everywhere else. Search for a topic you care about, find
 
 # Keeping the Spam Out
 
-![Filtering out the noise](/images/spamfilter.png)
+![Filtering out the noise](/images/spamfilter.webp)
 *Let your network do the filtering*
 
 ## Use Your Web of Trust
 
 The most effective spam filter on Nostr is your own network. A **web of trust** treats the people you follow, and the people they follow, as trusted. Accounts that nobody in your network follows, which is where nearly all spam comes from, can be hidden or pushed to the bottom.
 
-![Your network is your spam filter](/images/peoplewot.png)
+![Your network is your spam filter](/images/peoplewot.webp)
 *How web of trust filtering works*
 
 Look for these settings in your client:
@@ -94,26 +94,3 @@ Spam DMs are less of a problem when you use [private DMs](/private-messages) and
 3. Add one or two custom feeds and explore the hashtags you care about.
 4. Reply to people. Conversations are how you get noticed and find more people worth following.
 5. Turn on web of trust filtering and mute anything you don't want to see.
-
----
-
-If you found this post useful, please share it with your peers and consider following and zapping me on Nostr. If you write to me and let me know
-that you found me via this post, I'll be sure to Zap you back! ⚡️
-
-<div class="button-container">
-  <button
-    id="nostr-zap-target"
-    class="hero__button button button--primary nostr-zap-button nostr-zap-button--primary"
-    data-npub="npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    data-relays="wss://relay.damus.io,wss://nos.lol,wss://relay.primal.net,wss://nostr.wine"
-  >
-    Zap Me ⚡️
-  </button>
-
-  <a
-    href="https://primal.net/p/npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="hero__button button button--primary"
-  >Follow Me ✅</a>
-</div>

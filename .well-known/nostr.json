@@ -1,0 +1,8 @@
+{
+  "names": {
+    "qna": "a60e79e0edad5100d7543b669e513dbc1c2170e8e9b74fdb8e971afd1e0e6813"
+  },
+  "relays": {
+    "a60e79e0edad5100d7543b669e513dbc1c2170e8e9b74fdb8e971afd1e0e6813": ["wss://relay.damus.io", "wss://nos.lol", "wss://relay.primal.net"]
+  }
+}

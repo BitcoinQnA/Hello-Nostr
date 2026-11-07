@@ -3,7 +3,7 @@ layout: post
 title: Run Your Own Relay
 description: Keep a full copy of everything you post, on a relay you control
 date: 2026-11-06 10:01:35 +0300
-image: '/images/relayhero.png'
+image: '/images/relayhero.webp'
 tags: [Protocol]
 tags_color: '#4643ec'
 Author: QnA
@@ -14,7 +14,7 @@ Every note, like, zap and profile update you make on Nostr is stored on relays. 
 
 Running your own relay fixes that. You keep a complete copy of every event you sign, on a server you control, and you can add it to any client alongside the public relays you already use. It's also much easier than it sounds. If you have an Android phone, you can have one running in a couple of minutes.
 
-![Your notes, one copy you control](/images/relaydiagram.png)
+![Your notes, one copy you control](/images/relaydiagram.webp)
 *Public relays come and go. Your relay keeps everything.*
 
 # Why Run Your Own Relay?
@@ -54,7 +54,7 @@ You don't have to pick just one. A phone relay for backup plus a hosted or home 
 
 Because the relay lives on your phone, other people can't connect to it. Its job is backup: every client on your phone sends your events to it as you use Nostr.
 
-![Phone relay](/images/relayphone.png)
+![Phone relay](/images/relayphone.webp)
 *A relay in your pocket*
 
 1. Download Citrine from [Zap Store](https://zapstore.dev/), [F-Droid](https://f-droid.org/packages/com.greenart7c3.citrine/), [Obtainium](https://github.com/ImranR98/Obtainium) or [GitHub](https://github.com/greenart7c3/Citrine/releases).
@@ -97,7 +97,7 @@ If you already run a Bitcoin node at home on [Umbrel](https://umbrel.com/) or [S
 3. Add `ws://umbrel:4848` to your Nostr clients.
 4. Open the Nostr Relay app and tap the globe icon to copy your past activity from your public relays into it.
 
-{% include img.html src ="/images/umbrelrelay.png" alt="Umbrel Nostr Relay" caption="The Nostr Relay app on Umbrel" %}
+{% include img.html src ="/images/umbrelrelay.webp" alt="Umbrel Nostr Relay" caption="The Nostr Relay app on Umbrel" %}
 
 **Start9** offers nostr-rs-relay as an official package in the StartOS marketplace. Install it from the marketplace and add the address StartOS gives you to your clients.
 
@@ -225,26 +225,3 @@ If the test note shows up in your client, you're all set. Welcome to owning your
 > Clients are how you use Nostr, and relays are where the data lives. You need both to make the magic happen.
 >
 > <cite>– QnA</cite>
-
----
-
-If you found this post useful, please share it with your peers and consider following and zapping me on Nostr. If you write to me and let me know
-that you found me via this post, I'll be sure to Zap you back! ⚡️
-
-<div class="button-container">
-  <button
-    id="nostr-zap-target"
-    class="hero__button button button--primary nostr-zap-button nostr-zap-button--primary"
-    data-npub="npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    data-relays="wss://relay.damus.io,wss://nos.lol,wss://relay.primal.net,wss://nostr.wine"
-  >
-    Zap Me ⚡️
-  </button>
-
-  <a
-    href="https://primal.net/p/npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="hero__button button button--primary"
-  >Follow Me ✅</a>
-</div>

@@ -1,4 +1,4 @@
-![Hello Nostr](/images/hellonostr.png)
+![Hello Nostr](/images/hellonostr.webp)
 
 I'll do my best to keep this site current and up to date, but Nostr moves pretty fast! Help to ensure the site is as accurate and informative as possible is hugely appreciated! You don't need to be a shadowy super coder to help. Here are some ways in which you can get involved:
 

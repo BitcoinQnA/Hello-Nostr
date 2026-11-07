@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
-image: '/images/mainpage01.png'
+image: '/images/mainpage01.webp'
 ---
 
 Hey, I’m QnA - I am a Bitcoiner and Freedom Tech enthusiast and I like to help others understand and leverage these tools.
@@ -21,10 +21,10 @@ The content on this site will not only be my own. I will aim to index and mainta
 
 <div class="gallery-box">
   <div class="gallery gallery-columns-2">
-    {% include img.html src ="/images/id.png" alt="Keyboard" caption="Decentralized Identity" %}
-    {% include img.html src ="/images/headphones.png" alt="Keyboard" caption="'Value for Value' Audio" %}
-    {% include img.html src ="/images/podcastmic.png" alt="Keyboard" caption="Podcasting 2.0" %}
-    {% include img.html src ="/images/socialnetwork.png" alt="Keyboard" caption="Decentralized social graphs" %}
+    {% include img.html src ="/images/id.webp" alt="Keyboard" caption="Decentralized Identity" %}
+    {% include img.html src ="/images/headphones.webp" alt="Keyboard" caption="'Value for Value' Audio" %}
+    {% include img.html src ="/images/podcastmic.webp" alt="Keyboard" caption="Podcasting 2.0" %}
+    {% include img.html src ="/images/socialnetwork.webp" alt="Keyboard" caption="Decentralized social graphs" %}
   </div>
   <em> <a href="https://unsplash.com/" target="_blank"></a></em>
 </div>

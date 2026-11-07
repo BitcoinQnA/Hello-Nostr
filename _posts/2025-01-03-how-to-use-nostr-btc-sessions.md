@@ -3,12 +3,13 @@ layout: post
 title: How to use Nostr - By BTC Sessions
 description: Learn the basics of Nostr with prolific educator BTC Sessions.
 date: 2025-02-03 15:01:35 +0300
-image: '/images/youtube1.jpg'
+image: '/images/youtube1.webp'
 video_embed: https://www.youtube.com/embed/qn-Zp491t4Y?si=af2lsdc91ZvX4vYm
 tags: [Basics]
 tags_color: '#3eb99a'
 Author: BTC Sessions
 featured: False
+author_zap: false
 ---
 
 Nostr is a decentralized social protocol that could be a solution to the censorship coming from our current selection of centralized entities. Given the infrastructure, it lends itself easily to Bitcoin and Lightning integration. This video will help you take your first steps in setting up and using Nostr. 

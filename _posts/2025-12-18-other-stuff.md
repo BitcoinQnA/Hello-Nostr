@@ -3,7 +3,7 @@ layout: post
 title: What is the 'Other Stuff'?
 description: Nostr isn’t just a Twitter replacement. It’s a foundation for whatever ‘other stuff’ you can dream up.
 date: 2025-03-05 14:02:35 +0300
-image: '/images/otherstuffhero.png'
+image: '/images/otherstuffhero.webp'
 tags: [Other]
 tags_color: '#f14979'
 ---
@@ -30,10 +30,10 @@ The 'other stuff' name is intentionally vague. Why? Because the possibilities of
 
 <div class="gallery-box">
   <div class="gallery gallery-columns-2">
-    {% include img.html src ="/images/retropc1.png" %}
-    {% include img.html src ="/images/encryptedchat.png" %}
-    {% include img.html src ="/images/pczap.png" %}
-    {% include img.html src ="/images/market.png" %}
+    {% include img.html src ="/images/retropc1.webp" %}
+    {% include img.html src ="/images/encryptedchat.webp" %}
+    {% include img.html src ="/images/pczap.webp" %}
+    {% include img.html src ="/images/market.webp" %}
   </div>
 </div>
 
@@ -49,20 +49,20 @@ Here's a short list of some of the most recent and popular apps and clients that
 
 ### Group Chats
 
-- [Chachi Chat](https://chachi.chat/) - *Relay-based (NIP-29) group chat client*
+- [Flotilla](https://flotilla.social/) - *Relay-based (NIP-29) group chat and community client*
 - [0xchat](https://github.com/0xchat-app) - *Mobile based secure chat*
 - [Flotilla](https://flotilla.social/) - *Web based chat app built for self-hosted communities*
 - [Nostr Nests](https://nostrnests.com/) - *Web app for audio chats*
 - [White Noise](https://github.com/erskingardner/whitenoise) - *Mobile based secure chat*
 
 
-![Other Stuff](/images/Screens.png)
+![Other Stuff](/images/Screens.webp)
 *Highligher, Plebeian Market, Habla + Flotilla*
 
 
 ### Marketplaces
 
-- [Shopstr](https://shopstr.store/) - *Permissionless marketplace for web*
+- [Shopstr](https://shopstr.market/) - *Permissionless marketplace for web*
 - [Plebeian Market](https://plebeian.market/) - *Permissionless marketplace for web*
 - [LNBits Market](https://github.com/lnbits/nostrmarket#nostr-market-nip-15---lnbits-extension) - *Permissionless marketplace for your node*
 - [Mostro](https://github.com/MostroP2P/mostro) - *Nostr based Bitcoin P2P Marketplace*
@@ -77,7 +77,7 @@ Here's a short list of some of the most recent and popular apps and clients that
 - [Fountain](https://fountain.fm/) - *Podcast app with Nostr features*
 - [Wavlake](https://wavlake.com/) - *A music app supporting the value-for-value ecosystem*
 
-![Other Stuff](/images/Screens1.png)
+![Other Stuff](/images/Screens1.webp)
 *Wavlake, Mostro, Fountain + Olas*
 
 ### Livestreaming
@@ -87,11 +87,11 @@ Here's a short list of some of the most recent and popular apps and clients that
 ### Misc
 
 - [Wikifreedia](https://wikifreedia.xyz/) - *Nostr based Wikipedia alternative*
-- [Wikistr](https://wikistr.com/) - *Nostr based Wikipedia alternative*
+- [Wikifreedia](https://wikifreedia.xyz/) - *Nostr based Wikipedia alternative*
 - [Pollerama](https://pollerama.fun/) - *Nostr based polls*
 - [Zap Store](https://zapstore.dev) - *The app store powered by your social graph*
 
-![Other Stuff](/images/zapstore.png)
+![Other Stuff](/images/zapstore.webp)
 *Zap Store*
 
 The 'other stuff' in Nostr is what makes it special. It’s not just about replacing Twitter or Facebook, it’s about building a decentralized ecosystem where anything from private chats to marketplaces can thrive. 
@@ -99,27 +99,3 @@ The beauty of Nostr is that it’s a flexible foundation. Developers can dream u
 It’s still early days, so expect the 'other stuff' to grow wilder and weirder over time!
 
 You can explore the evergrowing 'other stuff' ecosystem at [NostrApps.com](https://nostrapps.com/), [Nostr.net](https://nostr.net/) and [Awesome Nostr](https://github.com/aljazceru/awesome-nostr).
-
-
----
-
-If you found this post useful, please share it with your peers and consider following and zapping me on Nostr. If you write to me and let me know 
-that you found me via this post, I'll be sure to Zap you back! ⚡️
-
-<div class="button-container">
-  <button
-    id="nostr-zap-target"
-    class="hero__button button button--primary nostr-zap-button nostr-zap-button--primary"
-    data-npub="npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    data-relays="wss://relay.damus.io,wss://nos.lol,wss://relay.primal.net,wss://nostr.wine"
-  >
-    Zap Me ⚡️
-  </button>
-
-  <a
-    href="https://primal.net/p/npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="hero__button button button--primary"
-  >Follow Me ✅</a>
-</div>

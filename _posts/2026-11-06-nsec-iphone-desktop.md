@@ -3,7 +3,7 @@ layout: post
 title: Secure your Nsec on iPhone and Desktop
 description: Use Nostr apps on iPhone, Mac and PC without pasting your nsec into every one of them
 date: 2026-11-06 14:01:35 +0300
-image: '/images/signerhero.png'
+image: '/images/signerhero.webp'
 tags: [Other]
 tags_color: '#f14979'
 Author: QnA
@@ -14,7 +14,7 @@ Your nsec is the key to your Nostr account. Whoever holds it can post as you and
 
 The rule is the same everywhere: put your nsec in one trusted place, and never paste it into a new app just to try it out.
 
-![Two ways to keep your key out of apps](/images/signerdiagram.png)
+![Two ways to keep your key out of apps](/images/signerdiagram.webp)
 *Browser extensions and remote signers both keep your nsec in one place*
 
 # Two Ways to Sign Without Sharing Your Nsec
@@ -32,7 +32,7 @@ A remote signer on your phone can sign for a web client on your computer, even w
 
 [Clave](https://github.com/dmnyc/clave) is a free and open source remote signer for iPhone. It keeps your nsec in the iPhone Keychain and signs for other apps in the background, using a notification to wake itself when a request comes in. You can set how much each connected app is trusted, see a log of everything it signed, and disconnect an app with one tap.
 
-![Approving a request on iPhone](/images/signerphone.png)
+![Approving a request on iPhone](/images/signerphone.webp)
 *Your iPhone as a signer*
 
 1. Install **Clave - Nostr Signer** from the App Store. It's free and needs iOS 17.6 or later.
@@ -122,26 +122,3 @@ Some websites only support extension logins. On Firefox, [Bark](https://addons.m
 > Private keys should be exposed to as few systems as possible as each system adds to the attack surface
 >
 > <cite>– NIP-46</cite>
-
----
-
-If you found this post useful, please share it with your peers and consider following and zapping me on Nostr. If you write to me and let me know
-that you found me via this post, I'll be sure to Zap you back! ⚡️
-
-<div class="button-container">
-  <button
-    id="nostr-zap-target"
-    class="hero__button button button--primary nostr-zap-button nostr-zap-button--primary"
-    data-npub="npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    data-relays="wss://relay.damus.io,wss://nos.lol,wss://relay.primal.net,wss://nostr.wine"
-  >
-    Zap Me ⚡️
-  </button>
-
-  <a
-    href="https://primal.net/p/npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="hero__button button button--primary"
-  >Follow Me ✅</a>
-</div>

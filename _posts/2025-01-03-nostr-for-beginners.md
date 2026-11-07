@@ -3,12 +3,13 @@ layout: post
 title: Nostr for Beginners - By Derek Ross
 description: Learn the basics with Nostr super fan Derek Ross
 date: 2025-02-03 15:01:35 +0300
-image: '/images/youtube4.jpg'
+image: '/images/youtube4.webp'
 video_embed: https://www.youtube.com/embed/NVm_jGdwTjQ
 tags: [Basics]
 tags_color: '#3eb99a'
 Author: Derek Ross
 featured: True
+author_zap: false
 ---
 
 From the basics of getting started to advanced features like zaps for microtransactions, we cover everything you need to know about Nostr. Learn about the diverse ecosystem of apps built on the protocol and how they're revolutionizing content creation, consumption, and monetization. Whether you're a privacy advocate, a content creator, or simply curious about decentralized technologies, this guide will help you navigate the exciting world of Nostr. 

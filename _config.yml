@@ -25,6 +25,17 @@ defaults:
 
 include:
   - _pages
+  - .well-known
+
+exclude:
+  - scripts
+  - _README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
 
 sass:
   style: compressed

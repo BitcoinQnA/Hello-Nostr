@@ -3,7 +3,7 @@ layout: post
 title: My Nsec Leaked, Now What?
 description: What to do if your Nostr private key is exposed, and how to back it up so it never comes to that
 date: 2026-11-06 15:56:35 +0300
-image: '/images/leakhero.png'
+image: '/images/leakhero.webp'
 tags: [Other]
 tags_color: '#f14979'
 Author: QnA
@@ -76,7 +76,7 @@ Treat everything in your DMs as readable by someone else. If anything sensitive 
 
 A good backup lets you keep your nsec off the internet and in as few places as possible, and means a broken or stolen phone doesn't cost you your account.
 
-![A durable offline backup](/images/leakbackup.png)
+![A durable offline backup](/images/leakbackup.webp)
 *Keep your backup offline and in more than one place*
 
 **Use an encrypted backup.** An `ncryptsec` ([NIP-49](https://github.com/nostr-protocol/nips/blob/master/49.md)) is your key locked with a password. Even if someone finds the backup, they can't use it without the password. [Amethyst](https://github.com/vitorpamplona/amethyst) and [noStrudel](https://nostrudel.ninja/) can export one, and `nak key encrypt` creates one in a terminal. Store the password separately from the backup.
@@ -95,7 +95,7 @@ Some apps can show your key as 12 seed words ([NIP-06](https://github.com/nostr-
 If you own a [Passport Prime](https://foundation.xyz/passport-prime), its **Vault** app is a secure, offline home for your Nostr keys. The Vault can generate Nostr keys for you, alongside Bitcoin seeds and passwords, all derived from Passport Prime's master key.
 
 <div style="text-align: center;">
-  <img src="/images/primevault1.png" alt="Creating a Nostr key in the Passport Prime Vault" style="width: 100%; max-width: 560px;">
+  <img src="/images/primevault1.webp" alt="Creating a Nostr key in the Passport Prime Vault" style="width: 100%; max-width: 560px;">
   <p><i>Creating a new Nostr key in the Vault</i></p>
 </div>
 
@@ -109,14 +109,14 @@ That makes the Vault especially useful when a key leaks:
 4. Scan the nsec QR code into your signer app, such as [Amber](/amber), and carry on with the steps above.
 
 <div style="text-align: center;">
-  <img src="/images/primevault7.png" alt="Viewing a Nostr key in the Passport Prime Vault" style="width: 100%; max-width: 380px;">
+  <img src="/images/primevault7.webp" alt="Viewing a Nostr key in the Passport Prime Vault" style="width: 100%; max-width: 380px;">
   <p><i>Your npub and nsec, shown on Passport Prime</i></p>
 </div>
 
 You can also create keys for friends and family in the Vault. If they ever lose access, you can re-create their key and get them back into their account.
 
 <div style="text-align: center;">
-  <img src="/images/primevault4.png" alt="The Passport Prime Vault" style="width: 100%; max-width: 190px;">
+  <img src="/images/primevault4.webp" alt="The Passport Prime Vault" style="width: 100%; max-width: 190px;">
   <p><i>Seeds, passwords and Nostr keys in one Vault</i></p>
 </div>
 
@@ -130,26 +130,3 @@ Read the full [Vault guide](https://docs.foundation.xyz/prime/prime-apps/vault/)
 - **Never paste your nsec into a website or a new app.** If an app only accepts a pasted nsec, don't use it with your main account.
 - **Install apps and extensions only from official sources.**
 - **Review connected apps** in your signer every so often, and remove the ones you don't use.
-
----
-
-If you found this post useful, please share it with your peers and consider following and zapping me on Nostr. If you write to me and let me know
-that you found me via this post, I'll be sure to Zap you back! ⚡️
-
-<div class="button-container">
-  <button
-    id="nostr-zap-target"
-    class="hero__button button button--primary nostr-zap-button nostr-zap-button--primary"
-    data-npub="npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    data-relays="wss://relay.damus.io,wss://nos.lol,wss://relay.primal.net,wss://nostr.wine"
-  >
-    Zap Me ⚡️
-  </button>
-
-  <a
-    href="https://primal.net/p/npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="hero__button button button--primary"
-  >Follow Me ✅</a>
-</div>

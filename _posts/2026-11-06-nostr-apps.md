@@ -3,7 +3,7 @@ layout: post
 title: Which Nostr App Should I Use?
 description: A guide to the most popular Nostr apps in November 2026, and which to pick for your phone or computer
 date: 2026-11-06 20:16:35 +0300
-image: '/images/clients-hero.png'
+image: '/images/clients-hero.webp'
 tags: [Social]
 tags_color: '#de47e2'
 Author: QnA
@@ -14,7 +14,7 @@ There's no single 'Nostr app'. Nostr is a protocol, and dozens of independent te
 
 This guide covers the most popular Nostr apps at the time of writing, what each one is best at, and where to start.
 
-![Popular Nostr apps](/images/clients-logos.png)
+![Popular Nostr apps](/images/clients-logos.webp)
 *Some of the most popular Nostr apps*
 
 {: .tip }
@@ -38,7 +38,7 @@ These are our suggestions, based on each app's features today.
 
 # Social Apps for Your Phone
 
-![Primal, Amethyst, Nostur and YakiHonne](/images/clients-phones.png)
+![Primal, Amethyst, Nostur and YakiHonne](/images/clients-phones.webp)
 *Primal, Amethyst, Nostur and YakiHonne*
 
 **[Primal](https://primal.net/)** (iPhone, Android, web) is the most polished place to start, and the one our [First Steps](/start) guide uses. It has a built-in Lightning wallet, so zaps work without any setup, plus long-form 'Reads', custom feeds and search. Primal is free, with optional Premium and Pro subscriptions.
@@ -57,7 +57,7 @@ These are our suggestions, based on each app's features today.
 
 No install needed. Open the site, log in with a browser extension or remote signer, and you're in.
 
-![Primal, Coracle, Jumble and noStrudel](/images/clients-web.png)
+![Primal, Coracle, Jumble and noStrudel](/images/clients-web.webp)
 *Primal, Coracle, Jumble and noStrudel in the browser*
 
 <br/>
@@ -77,14 +77,14 @@ No install needed. Open the site, log in with a browser extension or remote sign
 - **Jumble** has a desktop app as well as its website.
 - **Nostur** runs on Mac as well as iPhone and iPad.
 
-![Amethyst, Notedeck and Nostur on desktop](/images/clients-desktop.png)
+![Amethyst, Notedeck and Nostur on desktop](/images/clients-desktop.webp)
 *Amethyst, Notedeck and Nostur on the desktop*
 
 <br/>
 
 # Chat and Communities
 
-![Flotilla, 0xchat and Fountain](/images/clients-more.png)
+![Flotilla, 0xchat and Fountain](/images/clients-more.webp)
 *Flotilla for communities, 0xchat for private chat and Fountain for podcasts*
 
 - **[Flotilla](https://flotilla.social/)** (web, iPhone, Android) is a Discord-style app for group spaces, with chat, threads, calendars and articles, built on relays that host groups.
@@ -115,26 +115,3 @@ Apps come and go quickly. These were popular once but aren't being updated, so w
 
 {: .note }
 This guide reflects each app as of November 2026. Nostr apps change fast, so check each app's own site for the latest features.
-
----
-
-If you found this post useful, please share it with your peers and consider following and zapping me on Nostr. If you write to me and let me know
-that you found me via this post, I'll be sure to Zap you back! ⚡️
-
-<div class="button-container">
-  <button
-    id="nostr-zap-target"
-    class="hero__button button button--primary nostr-zap-button nostr-zap-button--primary"
-    data-npub="npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    data-relays="wss://relay.damus.io,wss://nos.lol,wss://relay.primal.net,wss://nostr.wine"
-  >
-    Zap Me ⚡️
-  </button>
-
-  <a
-    href="https://primal.net/p/npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="hero__button button button--primary"
-  >Follow Me ✅</a>
-</div>

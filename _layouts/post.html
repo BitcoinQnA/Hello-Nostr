@@ -61,6 +61,9 @@ layout: default
       <article class="post">
         <div class="post__content">
           {{ content }}
+          {% unless page.author_zap == false %}
+          {% include zap-follow.html %}
+          {% endunless %}
         </div>
       </article>
 

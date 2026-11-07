@@ -8,6 +8,7 @@ video_embed: https://www.youtube.com/embed/fG1IDm-lQek?si=hhVYaA11xN0oY48l
 tags: [Social]
 tags_color: '#de47e2'
 Author: BTC Sessions
+author_zap: false
 ---
 
 Damus is a new app that allows you to interact with Nostr - a decentralized social protocol. Make posts, share content, send DMs, pay each other natively with Bitcoin and more. All of this is done in a censorship resistant way, offering an alternative to platforms like Twitter, Facebook, Instagram and others. This video tutorial will walk you through initial setup & using Damus in all the ways described above.

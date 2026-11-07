@@ -3,7 +3,7 @@ layout: post
 title: Private Messages on Nostr
 description: What's private in a Nostr DM, what isn't, and how to make your messages as private as they can be
 date: 2026-11-06 15:46:35 +0300
-image: '/images/dmshero.png'
+image: '/images/dmshero.webp'
 tags: [Protocol]
 tags_color: '#4643ec'
 Author: QnA
@@ -36,7 +36,7 @@ NIP-04 is now officially marked 'unrecommended' and replaced by NIP-17. Its own 
 
 [NIP-17](https://github.com/nostr-protocol/nips/blob/master/17.md) fixes most of these problems with a technique called 'gift wrapping'.
 
-![A message inside a gift wrap](/images/dmsgiftwrap.png)
+![A message inside a gift wrap](/images/dmsgiftwrap.webp)
 *A sealed message inside a gift wrap*
 
 1. Your message is encrypted and **sealed** with your key, so the recipient knows it came from you.
@@ -115,26 +115,3 @@ For sensitive conversations, use a messenger built for privacy first. The NIP-44
 - Turn off old DMs if your app lets you.
 - Keep your nsec in a signer.
 - Move anything sensitive to a dedicated private messenger.
-
----
-
-If you found this post useful, please share it with your peers and consider following and zapping me on Nostr. If you write to me and let me know
-that you found me via this post, I'll be sure to Zap you back! ⚡️
-
-<div class="button-container">
-  <button
-    id="nostr-zap-target"
-    class="hero__button button button--primary nostr-zap-button nostr-zap-button--primary"
-    data-npub="npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    data-relays="wss://relay.damus.io,wss://nos.lol,wss://relay.primal.net,wss://nostr.wine"
-  >
-    Zap Me ⚡️
-  </button>
-
-  <a
-    href="https://primal.net/p/npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="hero__button button button--primary"
-  >Follow Me ✅</a>
-</div>

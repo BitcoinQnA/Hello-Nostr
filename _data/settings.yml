@@ -44,20 +44,20 @@ menu_settings:
 # Author Settings
 author:
   author_name: QnA
-  author_avatar: /images/mainpage01.png
+  author_avatar: /images/mainpage01.webp
 
 #-------------------------------
 # Hero Settings
 hero:
   enable: true
-  hero_avatar: /images/mainpage01.png
+  hero_avatar: /images/mainpage01.webp
   hero_title: Hello Nostr 👋
   hero_subtitle: NOSTR - “Notes and Other Stuff Transmitted by Relays”
   hero_description: |
     Nostr is a simple, open protocol that enables censorship-resistant and verifiable communication.
 
     Nostr is an open standard upon which anyone can build. Nostr is not a single app or service. Nostr is designed to put you in control of your online identity, social network and voice.
-  hero_image: /images/hellonostr.png
+  hero_image: /images/hellonostr.webp
   hero_image_caption: NOTES AND OTHER STUFF TRANSMITTED BY RELAYS
   hero_button_text: Get Started
   hero_button_link: '/start'
@@ -69,19 +69,19 @@ logos:
   logos_title: The Nostr Effect
   logo_image:
     - alt: "ID"
-      image: "/images/id.png"
+      image: "/images/id.webp"
     - alt: "Zap"
-      image: "/images/zap.png"
+      image: "/images/zap.webp"
     - alt: "Network"
-      image: "/images/socialnetwork.png"
+      image: "/images/socialnetwork.webp"
     - alt: "iPhone"
-      image: "/images/iphonezap.png"
+      image: "/images/iphonezap.webp"
     - alt: "Headphones"
-      image: "/images/headphones.png"
+      image: "/images/headphones.webp"
     - alt: "Mic"
-      image: "/images/podcastmic.png"
+      image: "/images/podcastmic.webp"
     - alt: "Store"
-      image: "/images/store.png"
+      image: "/images/store.webp"
 
 
 #-------------------------------
@@ -98,13 +98,13 @@ tags_section:
   tags_section_title: Explore Nostr
   tags:
     - tag: "Basics"
-      image: "/images/classroom.png"
+      image: "/images/classroom.webp"
     - tag: "Social"
-      image: "/images/socialcover.png"
+      image: "/images/socialcover.webp"
     - tag: "Other"
-      image: "/images/utilities.png"
+      image: "/images/utilities.webp"
     - tag: "Protocol"
-      image: "/images/27.jpg"
+      image: "/images/27.webp"
 
 
 #-------------------------------
