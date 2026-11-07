@@ -236,7 +236,7 @@ that you found me via this post, I'll be sure to Zap you back! ⚡️
     id="nostr-zap-target"
     class="hero__button button button--primary nostr-zap-button nostr-zap-button--primary"
     data-npub="npub15c88nc8d44gsp4658dnfu5fahswzzu8gaxm5lkuwjud068swdqfspxssvx"
-    data-relays="wss://relay.damus.io,wss://relay.snort.social,wss://nostr.wine,wss://relay.nostr.band"
+    data-relays="wss://relay.damus.io,wss://nos.lol,wss://relay.primal.net,wss://nostr.wine"
   >
     Zap Me ⚡️
   </button>

@@ -18,7 +18,7 @@ From the basics of getting started to advanced features like zaps for microtrans
     id="nostr-zap-target"
     class="hero__button button button--primary nostr-zap-button nostr-zap-button--primary"
     data-npub="npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424"
-    data-relays="wss://relay.damus.io,wss://relay.snort.social,wss://nostr.wine,wss://relay.nostr.band"
+    data-relays="wss://relay.damus.io,wss://nos.lol,wss://relay.primal.net,wss://nostr.wine"
   >
     Zap Derek ⚡️
   </button>

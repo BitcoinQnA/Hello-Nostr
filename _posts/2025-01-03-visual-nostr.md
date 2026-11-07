@@ -18,7 +18,7 @@ Nostr is a decentralized social protocol that could be a solution to the censors
     id="nostr-zap-target"
     class="hero__button button button--primary nostr-zap-button nostr-zap-button--primary"
     data-npub="npub1f7ptem2ztp9x4n7w62n90ddv40z0jrt4490d8lug3uasfwyjsccqkknerm"
-    data-relays="wss://relay.damus.io,wss://relay.snort.social,wss://nostr.wine,wss://relay.nostr.band"
+    data-relays="wss://relay.damus.io,wss://nos.lol,wss://relay.primal.net,wss://nostr.wine"
   >
     Zap School of Bitcoin ⚡️
   </button>
